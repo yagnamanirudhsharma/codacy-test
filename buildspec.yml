@@ -1,0 +1,7 @@
+version: 0.2
+
+phases:
+build:
+  commands:
+    - echo Building code $date.
+    - mvn clean install
